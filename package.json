@@ -1,0 +1,40 @@
+{
+  "name": "angular-server-test",
+  "version": "1.0.0",
+  "description": "Angular 4 Server-Side Rendering Test",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && npm run server",
+    "build": "webpack -p --display-modules",
+    "server": "node dist/main.js"
+  },
+  "keywords": [
+    "angular",
+    "server",
+    "client",
+    "rendering"
+  ],
+  "author": "Marvin Scharle",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/animations": "4.0.2",
+    "@angular/common": "^4.0.2",
+    "@angular/compiler": "^4.0.2",
+    "@angular/compiler-cli": "^4.0.2",
+    "@angular/core": "^4.0.2",
+    "@angular/http": "^4.0.2",
+    "@angular/platform-browser": "^4.0.2",
+    "@angular/platform-server": "^4.0.2",
+    "@angular/router": "^4.0.2",
+    "express": "^4.15.2",
+    "node-libs-browser": "^2.0.0",
+    "rxjs": "^5.0.1",
+    "timers-browserify": "^2.0.2",
+    "zone.js": "^0.8.4"
+  },
+  "devDependencies": {
+    "@ngtools/webpack": "^1.3.0",
+    "typescript": "^2.2.2",
+    "webpack": "^2.4.1"
+  }
+}
